@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Gym</string>
     <string name="google_map_key2">AIzaSyCOdKbr2MCsY0AMWZJwBOPmDnIBRXy533U</string>
-    <string name="google_map_key3">sk-proj-oxKnpTSBSas3vfZ0N6rKT3BlbkFJJ3yO65RQ3fiuwCUEyDY6</string>
+    <string name="google_map_key3">API KEY</string>
 </resources>
