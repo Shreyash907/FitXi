@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/border"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:drawableLeft="@drawable/user_icon"
+        android:editable="true"
+        android:hint=" Enter Name"
+        android:maxLength="40"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tname"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/red"/>
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:drawableLeft="@android:drawable/sym_action_call"
+        android:editable="true"
+        android:hint=" Enter Contact Number"
+        android:maxLength="11"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tcon"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/red"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:drawableLeft="@android:drawable/ic_secure"
+        android:editable="true"
+        android:hint=" Enter Password"
+        android:maxLength="11"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tpass"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/red"/>
+
+    <Switch
+        android:id="@+id/remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#FF5722"
+        android:drawableStart="@android:drawable/star_big_on"
+        android:text="REMEMBER ME"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:backgroundTint="#FF5722"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textColorHighlight="#FF5722"
+        android:textColorLink="#FF5722"
+        android:textSize="50dp"
+        app:strokeColor="#0B0A0A"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="110dp"/>
+
+</LinearLayout>

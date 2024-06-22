@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon"
+        android:label="FitXi"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gym"
+        tools:targetApi="31">
+        <activity
+            android:name=".alertcustom"
+            android:exported="false" />
+        <activity
+            android:name=".chat_item"
+            android:exported="false" />
+        <activity
+            android:name=".Mic"
+            android:exported="false" />
+        <activity
+            android:name=".workout"
+            android:exported="false" />
+        <activity
+            android:name=".diet"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_key2" />
+
+        <activity
+            android:name=".Map"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
