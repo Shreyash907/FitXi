@@ -112,7 +112,7 @@ public class workout extends AppCompatActivity {
         }
         RequestBody body=RequestBody.create(jsonBody.toString(),JSON);
         Request request=new Request.Builder()
-                .url("https://api.openai.com/v1/completions")//sk-proj-oxKnpTSBSas3vfZ0N6rKT3BlbkFJJ3yO65RQ3fiuwCUEyDY6
+                //.url("https://api.openai.com/v1/completions")//sk-proj-oxKnpTSBSas3vfZ0N6rKT3BlbkFJJ3yO65RQ3fiuwCUEyDY6
                 .header("Authorization","Bearer sk-proj-oxKnpTSBSas3vfZ0N6rKT3BlbkFJJ3yO65RQ3fiuwCUEyDY6")
                 .post(body)
                 .build();
